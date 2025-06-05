@@ -1,0 +1,20 @@
+# Cache do Visual Studio e VS Code
+.vs/
+.vscode/
+
+# Ignorar executáveis do COBOL e C
+*.exe
+*.o
+*.so
+*.dll
+*.lst  
+*.390
+*.err
+*.lst
+*.obj
+*.prn
+*.log
+
+# Ignorar diretórios de build
+bin/
+obj/
