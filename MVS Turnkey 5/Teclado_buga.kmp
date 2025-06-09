@@ -1,0 +1,33 @@
+[Profile]
+id=KMP
+Description=Teclado do Buga
+[KEYBOARD]
+C-KEY12=[pa1]
+C-KEY13=[pa2]
+KEY28=ansi 5d
+C-KEY31=[edit-copyappend]
+KEY43=[enter]
+C-KEY47=[edit-cut]
+C-KEY48=[edit-copy]
+C-KEY49=[edit-paste]
+C-KEY51=[edit-paste-next]
+C-KEY55=ansi 3f
+A-KEY55=ansi 3f
+CS-KEY58=[blue]
+S-KEY75=[edit-paste]
+S-KEY76=[erase eof]
+S-KEY81=[end field]
+C-KEY81=[pf17]
+A-KEY81=[pass]
+KEY85=[pf7]
+S-KEY85=[center text]
+C-KEY85=[pf5]
+A-KEY85=[top of page]
+KEY86=[unmark]
+S-KEY86=[pf8]
+C-KEY86=[pf6]
+S-KEY95='/'
+S-KEY100=ansi 2a
+S-KEY104=','
+S-KEY106='+'
+A-KEY126=[clear]
