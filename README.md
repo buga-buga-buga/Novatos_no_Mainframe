@@ -42,8 +42,20 @@ Codigos fontes dos exemplos que constam no livro
 -  `COB0001.JCL` - CLG Hello World em Cobol
 
   
+  # Gambiarras !!!
+
+Aqui que a gente se diverte de verdade!
   
-  
+
+  ![Compila Linka e Roda - HLASM direto do VSCode no projeto z390 no proprio windows](CLG - HLASM - z390.png)
+
+ [text] (https://drive.google.com/file/d/1RC4Hs_y8hV1DMKUTdsrWN6hlNtPU6StQ/view?usp=sharing)
+
+
+![Compila Linka e Roda - COBOL direto do VSCode via gnucobol no proprio windows](CLG - COBOL - gnucobol.png)
+
+[text](https://drive.google.com/file/d/1RyDimhJLzOla-AfJINEEu1lOQN11tkHD/view?usp=sharing)
+
 
 # MVS Turnkey5
 
