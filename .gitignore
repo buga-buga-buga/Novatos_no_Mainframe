@@ -2,7 +2,7 @@
 .vs/
 .vscode/
 
-# Ignorar executáveis do COBOL e C
+# Ignorar intermediarios de compilação e linkedicao
 *.exe
 *.o
 *.so
@@ -12,9 +12,24 @@
 *.err
 *.lst
 *.obj
+
+# Ignorar arquivos temporários, backup, logs e outros
+*.tmp
+*.bak
 *.prn
 *.log
+
+# Ignorar .class, .jar, .war, .ear
+*.class
+*.jar       
+*.war
+*.ear
 
 # Ignorar diretórios de build
 bin/
 obj/
+
+# Ignorar diretórios 
+OLDs/
+tk5/
+out/
