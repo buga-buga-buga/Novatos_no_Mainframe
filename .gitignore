@@ -1,6 +1,5 @@
-# Cache do Visual Studio e VS Code
+# Cache do Visual Studio
 .vs/
-.vscode/
 
 # Ignorar intermediarios de compilação e linkedicao
 *.exe

@@ -48,31 +48,31 @@ Codigos fontes dos exemplos que constam no livro
   
 ## Compila Linka e Roda - HLASM direto do VSCode no projeto z390
 
-![Compila Linka e Roda - HLASM direto do VSCode no projeto z390 no próprio Windows](\images\CLG_HLASM_z390.png)
+![Compila Linka e Roda - HLASM direto do VSCode no projeto z390 no próprio Windows](images/CLG_HLASM_z390.png)
 
 [Link para HLASM no z390](https://drive.google.com/file/d/1RC4Hs_y8hV1DMKUTdsrWN6hlNtPU6StQ/view?usp=sharing)
 
 
 ## Compila Linka e Roda - COBOL direto do VSCode via GNUCobol 
 
-![Compila Linka e Roda - COBOL direto do VSCode via GNUCobol no próprio Windows](\images\CLG_COBOL_gnucobol.png)
+![Compila Linka e Roda - COBOL direto do VSCode via GNUCobol no próprio Windows](images/CLG_COBOL_gnucobol.png)
 
 [Link para COBOL via GNUCobol](https://drive.google.com/file/d/1RyDimhJLzOla-AfJINEEu1lOQN11tkHD/view?usp=sharing)
 
 ## Compila Linka e Roda - C direto do VSCode via g++ (pacote MinGW)
 
-![Compila Linka e Roda - C direto do VSCode via g++ (pacote MinGW) no próprio Windows](\images\CLG_C_g++.png)
+![Compila Linka e Roda - C direto do VSCode via g++ (pacote MinGW) no próprio Windows](images/CLG_C_g++.png)
 
 
 ## Roda Hello World em Java, sem mistério por aqui!
-![Roda Hello World em Java](\images\Java_execution.png)
+![Roda Hello World em Java](images/Java_execution.png)
 
 
 ## Compila, Linka e Executa PL/1 da Iron Spring no Linux via wsl direto do Visual Studio Code
 
 [Link para PL/1 linux](https://drive.google.com/file/d/16uHQIxB6M_a9jkcJuXE83Jufh_kmQbdS/view?usp=sharing)
 
-![Compila Linkedita e Executa Hello World em PL/1](\images\CLG_PLI_IronSpring.png)
+![Compila Linkedita e Executa Hello World em PL/1](images/CLG_PLI_IronSpring.png)
 
 
 
