@@ -1,0 +1,152 @@
+{
+    "python.defaultInterpreterPath": "C:\\Program Files\\Python313\\python.exe",
+    "security.workspace.trust.untrustedFiles": "open",
+    "launch": {
+        "configurations": [
+            {
+                "name": "Python: Current File",
+                "type": "debugpy",
+                "request": "launch",
+                "program": "${file}",
+                "console": "integratedTerminal"
+            }
+        ]
+    },
+    "files.associations": {
+        "**/*.COBOL*{,/*}": "cobol",
+        "**/*.COB*{,/*}": "cobol",
+        "**/*.COBCOPY*{,/*}": "cobol",
+        "**/*.COPYBOOK*{,/*}": "cobol",
+        "**/*.COPY*{,/*}": "cobol",
+        "**/*.PL1*{,/*}": "pl1",
+        "**/*.PLI*{,/*}": "pl1",
+        "**/*.INC*{,/*}": "pl1",
+        "**/*.INCLUDE*{,/*}": "pl1",
+        "**/*.JCL*{,/*}": "jcl",
+        "**/*.CNTL*{,/*}": "jcl",
+        "**/*.PROC*{,/*}": "jcl",
+        "**/*.ASM*{,/*}": "hlasm",
+        "**/*.ASSEMBLE*{,/*}": "hlasm",
+        "**/*.HLASM*{,/*}": "hlasm",
+        "**/*.HLA*{,/*}": "hlasm",
+        "**/*.MACLIB*{,/*}": "hlasm",
+        "**/*.DBD*{,/*}": "hlasm",
+        "**/*.MFS*{,/*}": "hlasm",
+        "**/*.PCB*{,/*}": "hlasm",
+        "**/*.EXEC*{,/*}": "rexx",
+        "**/*.REXX*{,/*}": "rexx",
+        "**/*.REXXINC*{,/*}": "rexx",
+        "*.rex": "rexx",
+        "**/*.REX*{,/*}": "rexx",
+        "*.asm": "hlasm",
+        "*.pli": "pl1",
+        "*.jcl": "jcl",
+        "*.JCL": "jcl",
+        "HELLO000.C": "cpp",
+        "*.PL1": "pl1"
+    },
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/zapp.json"
+            ],
+            "url": "file:///c%3A/Users/bugol/.vscode/extensions/ibm.zopeneditor-5.4.1/resources/zapp-schema-1.4.0.json"
+        },
+        {
+            "fileMatch": [
+                "/zcodeformat.json"
+            ],
+            "url": "file:///c%3A/Users/bugol/.vscode/extensions/ibm.zopeneditor-5.4.1/resources/zcodeformat-schema-0.0.1.json"
+        }
+    ],
+    "code-runner.executorMap": {
+        "jcl": "cd $dir && .\\submit_jcl.ps1 $fileName",
+        "pl1": "wsl /home/buga/compile_pli.sh $fileNameWithoutExt",
+        "asm": "cd $dir && D:\\z390\\bat\\asmlg.bat $fileName",
+        "hlasm": "cd $dir && D:\\z390\\bat\\asmlg.bat $fileName",
+        "*.asm": "cd $dir && D:\\z390\\bat\\asmlg.bat $fileName",
+        "cobol": "cd $dir && cobc -x -I\"D:\\Program Files\\gnucobol\\include\" -L\"D:\\Program Files\\gnucobol\\lib\" $fileName && $dir$fileNameWithoutExt",
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "zig": "zig run",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "python -u",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "scheme": "csi -script",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runghc",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lisp": "sbcl --script",
+        "kit": "kitc --run",
+        "rexx": "regina $fileName",
+        "v": "v run",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "sml": "cd $dir && sml $fileName",
+        "mojo": "mojo run",
+        "erlang": "escript",
+        "spwn": "spwn build",
+        "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
+        "gleam": "gleam run -m $fileNameWithoutExt"
+    },
+     "code-runner.executorMapByFileExtension": {
+        ".asm": "cd $dir && D:\\z390\\bat\\asmlg.bat $fileName",
+        ".jcl": "jcl"
+    },
+
+     "code-runner.customCommand": "cd $dir && D:\\z390\\bat\\asmlg.bat $fileName",
+     "code-runner.fileExtensionAsCommand": true,
+     "code-runner.runInTerminal": true,
+     "code-runner.saveFileBeforeRun": true,
+     "code-runner.defaultLanguage": "jcl",
+     "code-runner.fileDirectoryAsCwd": true,
+     "C_Cpp.default.compilerPath": "d:\\Program Files\\MinGW\\bin\\cpp.exe",
+     "code-runner.executorMapByGlob": {
+
+        "pom.xml": "cd $dir && mvn clean package"
+    },
+    "[pl1]": {
+    
+        
+
+        "editor.rulers": [
+            72
+        ]
+    }
+}

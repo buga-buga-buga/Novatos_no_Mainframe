@@ -50,18 +50,20 @@ Codigos fontes dos exemplos que constam no livro
 
 ![Compila Linka e Roda - HLASM direto do VSCode no projeto z390 no próprio Windows](images/CLG_HLASM_z390.png)
 
-[Link para HLASM no z390](https://drive.google.com/file/d/1RC4Hs_y8hV1DMKUTdsrWN6hlNtPU6StQ/view?usp=sharing)
+[Download do HLASM no z390](https://drive.google.com/file/d/1RC4Hs_y8hV1DMKUTdsrWN6hlNtPU6StQ/view?usp=sharing)
 
 
 ## Compila Linka e Roda - COBOL direto do VSCode via GNUCobol 
 
 ![Compila Linka e Roda - COBOL direto do VSCode via GNUCobol no próprio Windows](images/CLG_COBOL_gnucobol.png)
 
-[Link para COBOL via GNUCobol](https://drive.google.com/file/d/1RyDimhJLzOla-AfJINEEu1lOQN11tkHD/view?usp=sharing)
+[Baixar o compilador de COBOL do GNUCobol](https://drive.google.com/file/d/1RyDimhJLzOla-AfJINEEu1lOQN11tkHD/view?usp=sharing)
 
 ## Compila Linka e Roda - C direto do VSCode via g++ (pacote MinGW)
 
 ![Compila Linka e Roda - C direto do VSCode via g++ (pacote MinGW) no próprio Windows](images/CLG_C_g++.png)
+
+[Download do compilador do C pra windows](https://drive.google.com/file/d/1yBzWWahqSrVWmOChfMMO61DdqNWvtf1y/view?usp=sharing)
 
 
 ## Roda Hello World em Java, sem mistério por aqui!
