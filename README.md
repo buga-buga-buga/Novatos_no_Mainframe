@@ -82,7 +82,7 @@ Codigos fontes dos exemplos que constam no livro
 
 Configurações e outros para rodar liso!
 
-Backup em 2025 06 09 - [text](https://drive.google.com/file/d/1Mvn50lmq-omf4xFop_FVB3suvKAu1oqF/view?usp=sharing)
+Backup em 2025 06 09 - [Disponivel pra baixar aqui!](https://drive.google.com/file/d/1Mvn50lmq-omf4xFop_FVB3suvKAu1oqF/view?usp=sharing)
 
   
 Ver sysouts no navegador
